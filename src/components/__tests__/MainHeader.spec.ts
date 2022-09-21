@@ -10,7 +10,6 @@ describe("MainHeader", () => {
       name: "John Doe",
       email: "john@doe.com",
       avatar: "avatar",
-      backgroundImage: "background",
       links: [],
     };
     const wrapper = mount(MainHeader, {
