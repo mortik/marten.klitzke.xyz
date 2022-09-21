@@ -11,14 +11,15 @@
   <div class="min-w-0 flex-1 py-1.5">
     <div class="text-sm text-gray-500 space-x-2">
       <span
-        v-for="skill in props.skills"
+        v-for="skill in skills"
         :key="skill"
         class="relative mb-2 inline-flex items-center rounded-full border transition-colors duration-500 dark:bg-slate-800 border-gray-300 dark:border-gray-600 px-3 py-0.5 text-sm"
       >
         <span
           class="font-medium transition-colors duration-500 text-gray-900 dark:text-gray-400"
-          >{{ skill }}</span
         >
+          {{ skill }}
+        </span>
       </span>
     </div>
   </div>
@@ -27,8 +28,7 @@
 <script lang="ts" setup>
 import { LightBulbIcon } from "@heroicons/vue/24/outline";
 
-export interface Props {
+defineProps<{
   skills: string[];
-}
-const props = withDefaults(defineProps<Props>(), {});
+}>();
 </script>

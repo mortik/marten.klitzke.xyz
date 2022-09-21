@@ -14,7 +14,9 @@ describe("MainHeader", () => {
       links: [],
     };
     const wrapper = mount(MainHeader, {
-      profile,
+      props: {
+        profile,
+      },
     });
 
     expect(wrapper.text()).toContain("John Doe");

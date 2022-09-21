@@ -5,6 +5,7 @@
   "compilerOptions": {
     "composite": true,
     "target": "esnext",
+    "noImplicitAny": false,
     "lib": [
       "esnext",
       "dom",

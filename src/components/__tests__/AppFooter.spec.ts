@@ -14,7 +14,9 @@ describe("AppFooter", () => {
       links: [],
     };
     const wrapper = mount(AppFooter, {
-      profile,
+      props: {
+        profile,
+      },
     });
 
     expect(wrapper.text()).toContain("John Doe");

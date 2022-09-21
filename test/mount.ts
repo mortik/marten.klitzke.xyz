@@ -3,7 +3,7 @@ import { mount } from "@vue/test-utils";
 import { createTestingPinia } from "@pinia/testing";
 import Router from "@/lib/Router";
 
-export default (Component: any, propsData = {}) =>
+export default (Component: any, options = {}) =>
   mount(Component, {
     global: {
       plugins: [
@@ -14,5 +14,5 @@ export default (Component: any, propsData = {}) =>
       ],
       stubs: ["font-awesome-icon"],
     },
-    propsData,
+    ...options,
   });

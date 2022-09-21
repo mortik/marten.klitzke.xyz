@@ -5,8 +5,13 @@ import SkillEntry from "../SkillEntry.vue";
 
 describe("SkillEntry", () => {
   it("renders properly", () => {
-    const wrapper = mount(SkillEntry);
+    const wrapper = mount(SkillEntry, {
+      props: {
+        skills: ["skill1", "skill2"],
+      },
+    });
 
-    expect(wrapper.text()).toContain("John Doe");
+    expect(wrapper.text()).toContain("skill1");
+    expect(wrapper.text()).toContain("skill2");
   });
 });
