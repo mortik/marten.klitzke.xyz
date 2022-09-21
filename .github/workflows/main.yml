@@ -8,6 +8,9 @@ on:
       - "*.*"
   workflow_dispatch:
 
+env:
+  FONTAWESOME_NPM_AUTH_TOKEN: ${{ secrets.FONTAWESOME_NPM_AUTH_TOKEN }}
+
 jobs:
   js-setup:
     runs-on: ubuntu-latest
