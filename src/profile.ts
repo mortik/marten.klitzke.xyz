@@ -1,4 +1,4 @@
-import Avatar from "@/assets/images/avatar-gray.jpg";
+import Avatar from "@/assets/images/avatar.jpg";
 import type { RouteLocation } from "vue-router";
 
 export type ProfileLink = {

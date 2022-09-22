@@ -4,7 +4,7 @@
     <div class="bg-gray-800">
       <img
         class="h-32 w-full object-cover lg:h-96"
-        :src="BackgroundImage5"
+        :src="BackgroundImage"
         alt=""
       />
 
@@ -111,7 +111,7 @@ import { MoonIcon, SunIcon } from "@heroicons/vue/24/outline";
 import { Switch } from "@headlessui/vue";
 import { useAppStore } from "@/stores/App";
 import type { Profile } from "@/profile";
-import BackgroundImage5 from "@/assets/images/background-5.jpg";
+import BackgroundImage from "@/assets/images/background.jpg";
 
 defineProps<{
   profile: Profile;
