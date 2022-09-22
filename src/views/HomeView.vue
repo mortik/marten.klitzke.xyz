@@ -10,7 +10,7 @@
       </small>
     </PageHeader>
     <div
-      class="flex items-center justify-center space-x-6 mt-10 sm:mt-40 py-6 transition-colors duration-500 border-t-slate-200 dark:border-t-slate-700 border-t sm:w-1/2"
+      class="flex items-center justify-center space-x-6 mt-10 sm:mt-20 py-6 transition-colors duration-500 border-t-slate-200 dark:border-t-slate-700 border-t sm:w-1/2"
     >
       <router-link
         :to="{ name: 'about' }"
