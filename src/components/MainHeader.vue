@@ -111,7 +111,7 @@ import { MoonIcon, SunIcon } from "@heroicons/vue/24/outline";
 import { Switch } from "@headlessui/vue";
 import { useAppStore } from "@/stores/App";
 import type { Profile } from "@/profile";
-import BackgroundImage5 from "@/assets/images/background-5.png";
+import BackgroundImage5 from "@/assets/images/background-5.jpg";
 
 defineProps<{
   profile: Profile;
