@@ -73,6 +73,8 @@ jobs:
       - run: yarn install
       - name: Build
         run: yarn build
+      - name: Fix 404 page
+        run: cp dist/index.html dist/404.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
