@@ -11,8 +11,8 @@
     </p>
     <p class="text-xl leading-8 text-gray-500 dark:text-gray-300">
       I'm a big fan of Vue.js and the ecosystem around it. Building Progress Web
-      Apps with Vue.js backed with an OpenAPI or GraphlQL API build on Ruby on
-      Rails is a lot of fun and allows fast iterations.
+      Apps with Vue.js backed with an OpenAPI/JSONSchema or GraphQL API build
+      with Ruby on Rails is a lot of fun and allows fast iterations.
       <br />
       Using modern CSS Frameworks like Twitter Bootstrap or TailwindCSS makes it
       even faster to build responsive web applications.

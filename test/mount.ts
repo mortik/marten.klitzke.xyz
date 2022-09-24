@@ -3,7 +3,7 @@ import { mount } from "@vue/test-utils";
 import { createTestingPinia } from "@pinia/testing";
 import Router from "@/lib/Router";
 
-export default (Component: any, options = {}) =>
+export default (Component, options = {}) =>
   mount(Component, {
     global: {
       plugins: [
