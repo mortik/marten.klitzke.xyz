@@ -107,10 +107,10 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
-"@headlessui/vue@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@headlessui/vue/-/vue-1.7.0.tgz#1778422d2969d53ad0e2b59defc9fec88f8ebf04"
-  integrity sha512-ClrXMThmo9lrFjHdzDQXsopjCgRA28v+u5s/J+gIAgvS5l3tTAI84GaVghFwxobijL9c6BsVgDQ7SrJ2dS1nLw==
+"@headlessui/vue@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@headlessui/vue/-/vue-1.7.2.tgz#da0bb42bcc3e21636f8621322115c3a93adf2331"
+  integrity sha512-nmmFpQxnAy6zgf5r0pwdAH3Qw2IsSbTgvkpov9RkEVE8A6aPAT4iaAaPEAzdI+sPL5Wby05mhciJXSqtkLu+vQ==
 
 "@heroicons/vue@^2.0.11":
   version "2.0.11"
@@ -453,10 +453,10 @@
     eslint-config-prettier "^8.3.0"
     eslint-plugin-prettier "^4.0.0"
 
-"@vue/eslint-config-typescript@^11.0.0":
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/@vue/eslint-config-typescript/-/eslint-config-typescript-11.0.1.tgz#d79b3656aecea844ec9875bc93155163f684dde7"
-  integrity sha512-0U+nL0nA7ahnGPk3rTN49x76miUwuQtQPQNWOFvAcjg6nFJkIkA8qbGNtXwsuHtwBwRtWpHhShL3zK07v+632w==
+"@vue/eslint-config-typescript@^11.0.2":
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/@vue/eslint-config-typescript/-/eslint-config-typescript-11.0.2.tgz#03353f404d4472900794e653450bb6623de3c642"
+  integrity sha512-EiKud1NqlWmSapBFkeSrE994qpKx7/27uCGnhdqzllYDpQZroyX/O6bwjEpeuyKamvLbsGdO6PMR2faIf+zFnw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.0.0"
     "@typescript-eslint/parser" "^5.0.0"
@@ -3613,10 +3613,22 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-"vite@^2.9.12 || ^3.0.0-0", vite@^3.0.9:
+"vite@^2.9.12 || ^3.0.0-0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/vite/-/vite-3.1.0.tgz#3138b279072941d57e76bcf7f66f272fc6a17fe2"
   integrity sha512-YBg3dUicDpDWFCGttmvMbVyS9ydjntwEjwXRj2KBFwSB8SxmGcudo1yb8FW5+M/G86aS8x828ujnzUVdsLjs9g==
+  dependencies:
+    esbuild "^0.15.6"
+    postcss "^8.4.16"
+    resolve "^1.22.1"
+    rollup "~2.78.0"
+  optionalDependencies:
+    fsevents "~2.3.2"
+
+vite@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-3.1.3.tgz#b2a0821c11aae124bb7618f8036913c689afcc59"
+  integrity sha512-/3XWiktaopByM5bd8dqvHxRt5EEgRikevnnrpND0gRfNkrMrPaGGexhtLCzv15RcCMtV2CLw+BPas8YFeSG0KA==
   dependencies:
     esbuild "^0.15.6"
     postcss "^8.4.16"
