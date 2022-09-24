@@ -14,7 +14,7 @@
     "test:e2e:ci": "start-server-and-test preview http://localhost:4173/ 'cypress run --e2e'",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
-    "lint": "yarn run lint:eslint && yarn run list:ts",
+    "lint": "yarn run lint:eslint && yarn run lint:ts",
     "lint:eslint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --ignore-path .gitignore",
     "lint:ts": "vue-tsc --noEmit -p tsconfig.app.json && vue-tsc --noEmit -p tsconfig.config.json && vue-tsc --noEmit -p tsconfig.vitest.json",
     "lint:fix": "yarn run lint:eslint --fix"
