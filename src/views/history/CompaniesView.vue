@@ -24,6 +24,7 @@
 
 <script lang="ts" setup>
 import CostaLogo from "@/assets/images/logos/costa.svg";
+import FobizzLogo from "@/assets/images/logos/fobizz.png";
 import ShipcloudLogo from "@/assets/images/logos/shipcloud.png";
 import MindmattersLogo from "@/assets/images/logos/mindmatters.png";
 import SumcumoLogo from "@/assets/images/logos/sumcumo.svg";
@@ -36,10 +37,30 @@ import type { Skill, ProjectOrPosition } from "@/views/HistoryView.vue";
 const activity: (ProjectOrPosition | Skill)[] = [
   {
     type: "position",
+    name: "fobizz",
+    href: "https://fobizz.com",
+    imageUrl: FobizzLogo,
+    description: "Building digital tools and platforms for education.",
+    from: "October 2023",
+  },
+  {
+    type: "skill",
+    skills: [
+      "Fullstack",
+      "Ruby",
+      "Typescript",
+      "Vue.js",
+      "Ruby on Rails",
+      "Sidekiq",
+      "OpenAPI",
+    ],
+  },
+  {
+    type: "position",
     name: "Freelance Software Developer",
     href: "https://marten.klitzke.xyz",
     imageUrl: Avatar,
-    description: "Building applications for verying clients.",
+    description: "Building applications for varying clients.",
     from: "October 2022",
   },
   {
@@ -111,7 +132,7 @@ const activity: (ProjectOrPosition | Skill)[] = [
     href: "https://aida.de",
     imageUrl: CostaLogo,
     description:
-      "Digitalization of the cruise industry. Building a mobile app (Android, iOS) for usage on board and in preperation for the cruise.",
+      "Digitalization of the cruise industry. Building a mobile app (Android, iOS) for usage on board and in preparation for the cruise.",
     from: "February 2016",
     until: "April 2017",
   },
@@ -120,7 +141,7 @@ const activity: (ProjectOrPosition | Skill)[] = [
     skills: [
       "Fullstack",
       "Go",
-      "Javacript",
+      "JavaScript",
       "React Native",
       "GraphQL",
       "Component Driven Development",
@@ -159,7 +180,7 @@ const activity: (ProjectOrPosition | Skill)[] = [
     name: "Freelance Software Developer",
     href: "https://marten.klitzke.xyz",
     imageUrl: Avatar,
-    description: "Building applications for verying clients.",
+    description: "Building applications for varying clients.",
     from: "August 2012",
     until: "August 2016",
   },

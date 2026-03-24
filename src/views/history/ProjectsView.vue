@@ -36,7 +36,7 @@ const activity: (ProjectOrPosition | Skill)[] = [
     href: "https://fleetyards.net",
     imageUrl: FleetyardsLogo,
     description:
-      "A web application to manage your fleet of ships in Star Citizen, an upcomming Multiplayer Online Game.",
+      "A web application to manage your fleet of ships in Star Citizen, an upcoming Multiplayer Online Game.",
     from: "November 2013",
   },
   {
@@ -49,7 +49,7 @@ const activity: (ProjectOrPosition | Skill)[] = [
       "PostgreSQL",
       "Sidekiq",
       "Redis",
-      "Elasticserch",
+      "Elasticsearch",
       "Ansible",
       "OpenAPI",
       "Graphic and Logo Design",
@@ -59,7 +59,7 @@ const activity: (ProjectOrPosition | Skill)[] = [
   {
     type: "project",
     name: "Reckoning",
-    href: "https://reckining.me",
+    href: "https://reckoning.me",
     imageUrl: ReckoningLogo,
     description: "Invoicing and Time Tracking for Freelancers",
     from: "August 2012",

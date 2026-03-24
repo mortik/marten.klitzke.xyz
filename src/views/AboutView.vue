@@ -10,7 +10,7 @@
       applications.
     </p>
     <p class="text-xl leading-8 text-gray-500 dark:text-gray-300">
-      I'm a big fan of Vue.js and the ecosystem around it. Building Progress Web
+      I'm a big fan of Vue.js and the ecosystem around it. Building Progressive Web
       Apps with Vue.js backed with an OpenAPI/JSONSchema or GraphQL API build
       with Ruby on Rails is a lot of fun and allows fast iterations.
       <br />
@@ -22,15 +22,15 @@
       very passionate about agile software development and continuous
       integration and delivery (CI/CD). Helping teams to improve and focus on
       what really matters through automation and continuous improvements of
-      workflows and processes is something i really enjoy.
+      workflows and processes is something I really enjoy.
     </p>
     <p class="mt-8 text-xl leading-8 text-gray-500 dark:text-gray-300">
       DevOps is also a very important part of my work. I'm a big fan of Docker
-      and Kubernetes, using tools like pulumni, helm, terraform or ansible to
+      and Kubernetes, using tools like Pulumi, Helm, Terraform or Ansible to
       write infrastructure as code.
     </p>
     <p class="mt-8 text-xl leading-8 text-gray-500 dark:text-gray-300">
-      In my freetime i like to spent time with my family, playing Star Citizen
+      In my free time I like to spend time with my family, playing Star Citizen
       or working on one of my open source projects Fleetyards.net or
       Reckoning.me.
     </p>
